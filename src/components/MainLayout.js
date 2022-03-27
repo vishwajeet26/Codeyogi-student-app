@@ -1,10 +1,9 @@
-import PreviousMap from "postcss/lib/previous-map";
 import React from "react";
 
 import { Outlet } from "react-router-dom";
 import Sidebar from "./Sidebar";
 
-function MainLayout(props) {
+function MainLayout() {
   return (
     <div className="flex items-stretch h-screen">
       <Sidebar></Sidebar>
